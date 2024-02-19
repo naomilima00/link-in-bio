@@ -1,0 +1,16 @@
+.links-section{
+  @apply flex flex-col gap-5 items-center;
+}
+.portfolio-btn{
+  @apply h-12 w-60 bg-rosy-brown text-arsenic rounded-md;
+}
+.media-links{
+  @apply flex gap-4 flex-wrap justify-center;
+}
+
+.link-btn{
+  @apply gap-5 p-2 px-4 items-center inline-flex h-12 w-44 bg-arsenic rounded-md;
+  .link-icons{
+    @apply max-w-8 max-h-8;
+  }
+}

@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  @apply bg-cod-gray;
+}
+body{
+  @apply text-jupiter mx-5 sm:mx-auto mt-12 mb-10 max-w-screen-xs;
+}
