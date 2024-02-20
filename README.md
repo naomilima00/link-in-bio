@@ -4,4 +4,4 @@
 
 🔧 Built using: Angular, TypeScript, and TailwindCSS
 
-💻 View here: https://naomilima00.github.io/link-in-bio/
+💻 View here: [Naomi Lima - Link in Bio](https://naomilima00.github.io/link-in-bio/)
