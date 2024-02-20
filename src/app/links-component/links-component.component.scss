@@ -9,8 +9,12 @@
 }
 
 .link-btn{
-  @apply gap-5 p-2 px-4 items-center inline-flex h-12 w-44 bg-arsenic rounded-md;
+  @apply gap-5 p-2 px-4 items-center inline-flex h-12 w-full xs:w-44 bg-arsenic rounded-md;
   .link-icons{
     @apply max-w-8 max-h-8;
   }
+}
+
+.divider-line{
+  @apply w-48 h-[2px] mt-1 mb-6 bg-rosy-brown block justify-center m-auto;
 }

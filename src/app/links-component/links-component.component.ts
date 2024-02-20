@@ -10,20 +10,28 @@ import { Component } from '@angular/core';
 })
 export class LinksComponent {
 
+  portfolioAvailable = false;
   linksList = [{
     iconSrc: 'assets/icons/icon-instagram.svg',
-    media: 'Instagram'
+    media: 'Instagram',
+    linkSrc: 'https://www.instagram.com/naomi_lima'
   },
   {
     iconSrc: 'assets/icons/icon-linkedin.svg',
-    media: 'Linkedin'
+    media: 'Linkedin',
+    linkSrc: 'https://www.linkedin.com/in/naomilima'
+
   },
   {
     iconSrc: 'assets/icons/icon-email.svg',
-    media: 'Email'
+    media: 'Email',
+    linkSrc: 'mailto:naomilima00@gmail.com'
+
   },
   {
     iconSrc: 'assets/icons/icon-github.svg',
-    media: 'Github'
+    media: 'Github',
+    linkSrc: 'https://github.com/naomilima00'
+
   }]
 }

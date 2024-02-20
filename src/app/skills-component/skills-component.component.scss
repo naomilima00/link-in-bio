@@ -1,9 +1,6 @@
 .list-skills{
-  @apply inline-flex gap-2 flex-wrap;
+  @apply justify-center inline-flex gap-2 flex-wrap;
 }
 .skill-pill{
   @apply whitespace-nowrap text-xs leading-none h-8 w-fit p-2 bg-arsenic rounded-md content-center;
-  &:hover{
-    @apply bg-rosy-brown transition ease-out duration-1000;
-  }
 }

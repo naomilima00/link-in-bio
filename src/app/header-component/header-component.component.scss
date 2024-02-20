@@ -1,13 +1,19 @@
 .header-section{
   @apply flex flex-col gap-5;
 }
+
 .intro-section{
-  @apply inline-flex items-center w-full;
+  @apply gap-4 max-xs:flex max-xs:flex-col max-xs:justify-center xs:inline-flex items-center w-full;
 }
+
 .intro-text{
-  @apply ml-auto;
+  @apply max-xs:text-center mt-2 xs:mt-0 xs:ml-auto;
 }
-.temp-img{
-  @apply w-24 h-24 bg-rosy-brown;
+
+.naomi-img{
+  @apply w-32 h-32 bg-rosy-brown rounded-lg;
 }
-.description{}
+
+.description{
+  @apply text-center;
+}
