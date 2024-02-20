@@ -2,7 +2,7 @@
   @apply flex flex-col gap-5;
 }
 .intro-section{
-  @apply inline-flex items-center w-full;
+  @apply xs:inline-flex items-center w-full;
 }
 .intro-text{
   @apply ml-auto;
@@ -10,4 +10,4 @@
 .temp-img{
   @apply w-24 h-24 bg-rosy-brown;
 }
-.description{}
+

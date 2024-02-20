@@ -1,9 +1,10 @@
+<div class="divider-line"></div>
 <section class="links-section">
-  <button class="portfolio-btn">Portfolio</button>
+  <button class="portfolio-btn" *ngIf="portfolioAvailable">Portfolio</button>
   <section class="media-links">
-    <div *ngFor="let items of linksList; index as i;" class="link-btn" id="link-{{linksList[i].media}}">
+    <a *ngFor="let items of linksList; index as i;" class="link-btn" id="link-{{linksList[i].media}}" href="{{linksList[i].linkSrc}}" target="_blank">
       <img class="link-icons" src="{{linksList[i].iconSrc}}">
       <p>{{linksList[i].media}}</p>
-    </div>
+    </a>
   </section>
 </section>
