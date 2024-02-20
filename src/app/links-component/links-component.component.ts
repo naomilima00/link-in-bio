@@ -11,19 +11,19 @@ import { Component } from '@angular/core';
 export class LinksComponent {
 
   linksList = [{
-    iconSrc: '~/assets/icons/icon-instagram.svg',
+    iconSrc: 'assets/icons/icon-instagram.svg',
     media: 'Instagram'
   },
   {
-    iconSrc: '~/assets/icons/icon-linkedin.svg',
+    iconSrc: 'assets/icons/icon-linkedin.svg',
     media: 'Linkedin'
   },
   {
-    iconSrc: '~/assets/icons/icon-email.svg',
+    iconSrc: 'assets/icons/icon-email.svg',
     media: 'Email'
   },
   {
-    iconSrc: '~/assets/icons/icon-github.svg',
+    iconSrc: 'assets/icons/icon-github.svg',
     media: 'Github'
   }]
 }
