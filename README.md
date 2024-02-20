@@ -1,5 +1,7 @@
-## This project is under construction! 🚧
+## Naomi's Link in Bio ✨
 
-https://naomilima00.github.io/naomi-link-in-bio/
+❔ Personalized "Link in Bio" website to add to my social media profiles
 
-"Link in Bio" site for my social media sites ✨
+🔧 Built using: Angular, TypeScript, and TailwindCSS
+
+💻 View here: https://naomilima00.github.io/link-in-bio/
