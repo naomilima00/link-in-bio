@@ -9,7 +9,7 @@
 }
 
 .link-btn{
-  @apply gap-5 p-2 px-4 items-center inline-flex h-12 w-44 bg-arsenic rounded-md;
+  @apply gap-5 p-2 px-4 items-center inline-flex h-12 w-full xs:w-44 bg-arsenic rounded-md;
   .link-icons{
     @apply max-w-8 max-h-8;
   }
